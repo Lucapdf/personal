@@ -1,0 +1,91 @@
+* {
+    font-family: jost;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: jost;
+    font-size: 80px;
+    font-weight: 500;
+}
+/* Navbar CSS */
+.navbar {
+    background-color: rgb(18, 41, 87);
+    overflow: hidden;
+    transition: all .55s ease;
+
+}
+.navbar a {
+    color:white;
+    float: right;
+    padding: 40px 20px;
+    text-decoration: none;
+    transition: all .55s ease;
+}
+.name {
+    color: black;
+    float: left;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 0px 50px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+    transition: all .55s ease;
+    
+}
+.navbar a:active {
+    color:white;
+}
+.links {
+    float: right;
+    vertical-align: center;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+/* introduction */
+.introduction {
+    margin-left: 200px;
+    padding: 100px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+h2 {
+    font-size: 60px;
+    line-height: 60px;
+}
+h3 {
+    line-height: 60px;
+}
+.heroimg {
+    
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.introductiontext {
+    border-color: black;
+}
+.introduction a.ctaa {
+    font-family: jost;
+    color: rgb(18, 41, 87);
+    font-size: 22px;
+    border: 3px solid;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin-left: 180px;
+    line-height: 80px;
+    border-color: rgb(18, 41, 87);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .55s ease;
+}
+.introduction a.ctaa:hover {
+    background: rgb(18, 41, 87);
+    color:white;
+    transform: translateX(8px);
+}
